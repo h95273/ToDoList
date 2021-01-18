@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="form">
+    <form action="/" method="POST">
+        <label for="title">タスク</label>
+        <input type="text" name="title">
+        <input type="submit" value="ToDoリストの項目を作成する">
+    </form>
+</div>
+<a href="/">トップページへ</a><br>
+
+{% endblock %}
